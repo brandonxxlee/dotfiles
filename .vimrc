@@ -70,3 +70,8 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <right> <nop>
 inoremap <left> <nop>
+
+" NerdTree Commands
+map <C-N> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
