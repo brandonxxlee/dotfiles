@@ -44,6 +44,7 @@ set cmdheight=2
 set laststatus=2
 set wildmenu
 set wildmode=list:longest
+set ttyfast " faster redraw
 
 " Folding
 set foldenable
