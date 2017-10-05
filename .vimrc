@@ -12,7 +12,6 @@ colorscheme solarized
 " General Shortcuts
 imap jj <Esc>
 nnoremap ; :
-" inoremap { {<CR>}<ESC>ko
 let mapleader = ","
 nnoremap j gj
 nnoremap k gk
@@ -61,18 +60,16 @@ set incsearch
 set hlsearch
 nnoremap <leader><space> :noh<CR>
 
-" Unbind Arrow and ESC Keys
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <right> <nop>
-nnoremap <left> <nop>
-" inoremap <ESC> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <right> <nop>
-inoremap <left> <nop>
+" Buffers
+nmap <leader>T :enew<cr>
+nmap <leader>l :bnext<CR>
+nmap <leader>h :bprevious<CR>
+nmap <leader>bq :bp <BAR> bd #<CR>
 
 " NerdTree Commands
 map <C-N> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
