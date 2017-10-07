@@ -12,7 +12,3 @@ git clone "https://github.com/vim-airline/vim-airline" "~/.vim/bundle/vim-airlin
 git clone "https://github.com/scrooloose/nerdtree" "~/.vim/bundle/nerdtree"
 git clone "https://github.com/altercation/vim-colors-solarized" "~/.vim/bundle/vim-colors-solarized"
 git clone "https://github.com/townk/vim-autoclose" "~/.vim/bundle/vim-autoclose"
-git clone "https://github.com/scrooloose/syntastic"  "~/.vim/bundle/syntastic"
-
-
-
